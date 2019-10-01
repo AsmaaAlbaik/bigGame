@@ -40,7 +40,7 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
         // update the score UI 
         document.querySelector('#score-'+activePlayer).textContent =  score[activePlayer];
         // How Won
-        if (score[activePlayer] >= 10) {
+        if (score[activePlayer] >= 100) {
             // console.log("palyer number "+ activePlayer + "is won");
             document.querySelector('#name-'+ activePlayer).textContent = "winner !";
             document.querySelector(".dice").style.display = "none";
